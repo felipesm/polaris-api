@@ -7,7 +7,7 @@ import (
 
 func main() {
 
-	http.HandleFunc("/linhadigitavel", GetLinhaDigitavel)
+	http.HandleFunc("/linhadigitavel", getLinhaDigitavel)
 	porta := ":3000"
 	log.Println("Polaris API iniciada na porta", porta)
 	log.Fatal(http.ListenAndServe(porta, nil))
