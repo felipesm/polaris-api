@@ -7,6 +7,7 @@ import (
 	"strconv"
 
 	"github.com/polaris-boleto/boletos"
+	// "github.com/polaris-boleto/boletos"
 	errorutil "github.com/polaris-boleto/erro"
 )
 
