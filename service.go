@@ -6,9 +6,8 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/polaris-boleto/boletos"
-	// "github.com/polaris-boleto/boletos"
-	errorutil "github.com/polaris-boleto/erro"
+	"github.com/felipesm/polaris-boleto/boletos"
+	errorutil "github.com/felipesm/polaris-boleto/erro"
 )
 
 // getCodigoBarras - retorna código de barras
